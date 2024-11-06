@@ -1,0 +1,10 @@
+[package]
+name = "Cyphers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+magma = {path = "magma"}
+DES = {path = "DES"}
+traits = {path = "traits"}
+AES = {path = "AES"}
