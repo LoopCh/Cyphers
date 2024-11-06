@@ -1,5 +1,6 @@
 /target
-AES/target/
-DES/target
-magma/target
-traits/target
+/AES/target/
+/DES/target
+/magma/target
+/traits/target
+
