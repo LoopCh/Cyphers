@@ -8,7 +8,7 @@ pub fn add(left: usize, right: usize) -> usize {
 #[cfg(test)]
 mod tests {
     use crate::magma_block_encryptor::MagmaBlockEncryptor;
-    use traits::BlockEncryptor::BlockEncryptor;
+    use traits::block_encryptor::BlockEncryptor;
     use crate::utils::{mod32add};
     use super::*;
 

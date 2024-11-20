@@ -6,11 +6,13 @@ use utils::sboxes::*;
 use utils::key_gen::*;
 use utils::LEFT_SHIFTS;
 
-use traits::BlockEncryptor::BlockEncryptor;
+use traits::block_encryptor::BlockEncryptor;
+use traits::encryption_mode::{CBC, EBC};
 
 pub struct DES {
     key: u64,
 }
+
 
 impl BlockEncryptor<8, 8> for DES {
     /// Основная функция шифрования блока размером 64 бита, на выходе 64 бита

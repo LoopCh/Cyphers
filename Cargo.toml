@@ -8,3 +8,7 @@ magma = {path = "magma"}
 DES = {path = "DES"}
 traits = {path = "traits"}
 AES = {path = "AES"}
+Kuznechik = {path = "Kuznechik"}
+
+[profile.release]
+debug = true

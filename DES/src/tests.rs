@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use traits::BlockEncryptor::BlockEncryptor;
+    use traits::block_encryptor::BlockEncryptor;
     use crate::{discard_every_eighth_bit, DES};
     use super::*;
 

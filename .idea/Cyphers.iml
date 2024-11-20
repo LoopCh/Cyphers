@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/fiestel_net/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/magma/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DES/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AES/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Kuznechik/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/fiestel_net/target" />
+      <excludeFolder url="file://$MODULE_DIR$/magma/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/DES/target" />
+      <excludeFolder url="file://$MODULE_DIR$/AES/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Kuznechik/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

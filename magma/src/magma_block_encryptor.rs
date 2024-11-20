@@ -1,4 +1,4 @@
-use traits::BlockEncryptor::{BlockEncryptor};
+use traits::block_encryptor::{BlockEncryptor};
 use crate::utils::{mod32add, PI};
 
 const BLOCK_SIZE: usize = 8;
@@ -48,10 +48,10 @@ impl MagmaBlockEncryptor {
         result[0..4].copy_from_slice(&left_part.to_be_bytes());
         result[4..8].copy_from_slice(&right_part.to_be_bytes());
 
-        println!("result");
-        for element in result {
-            print!("{:02x}", element);
-        }
+        // println!("result");
+        // for element in result {
+        //     print!("{:02x}", element);
+        // }
 
         result
     }
@@ -92,7 +92,7 @@ impl MagmaBlockEncryptor {
             let pi_integrated_blocks = Self::integrate_with_pi(micro_blocks);
             // Получение числа обратно из битов
             let combined = Self::combine_blocks(pi_integrated_blocks);
-            // Циклический сдвиг налево на 11
+            // Циклический сдвиг влево на 11
             Self::rotate_combined(combined, ROTATE_LEFT, ROTATE_RIGHT)
     }
 
