@@ -1,0 +1,9 @@
+[package]
+name = "Kuznechik"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+traits = {path = "../traits"}
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
