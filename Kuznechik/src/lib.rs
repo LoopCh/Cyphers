@@ -143,7 +143,7 @@ fn rev_transform_r(state: &mut [u8;16]) {
     state[15] = transform_linear(state);
 }
 
-/// Не знаю верно написал или нет функцию вычисления нового байта
+/// Функция вычисления нового байта
 fn transform_linear(state: &[u8;16]) -> u8 {
     let _gfield = GaluaField2::new(&[1,1,1,0,0,0,0,1,1]);
 
